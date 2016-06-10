@@ -35,7 +35,7 @@ public class arrays {
 	
 	public void menor(int aux[])
 	{
-		System.out.println("el menor es:"+aux[7]);
+		System.out.println("el menor es:"+aux[0]);
 	}
 	
 	public void mostrar(int aux[])
