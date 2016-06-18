@@ -7,12 +7,10 @@ import javax.swing.JOptionPane;
 public class main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		int op1;
-		int op2;
+
+		int op1,op2;
 		float iva,subtotal,total;
-		int afec=0;
-		int cont=0;
+		int afec=0,cont=0;
 		
 		factura[] fac=new factura[5];
 		
