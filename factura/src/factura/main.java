@@ -47,10 +47,10 @@ public class main {
 			        cont=cont+1;
 			        break;
 		  case 2:	        
-			            System.out.println("NOMBRE       PRECIO          CANTIDAD PRODUCTOS");
+			            System.out.println("NOMBRE  \tPRECIO   \tCANTIDAD PRODUCTOS");
 			        for(int i=0;i<cont;i++)
 			        {
-			        	System.out.println(fac[i].getNombre()+"           "+fac[i].getPrecio()+"                "+fac[i].getN_productos());
+			        	System.out.println(fac[i].getNombre()+"\t\t"+fac[i].getPrecio()+"\t\t\t"+fac[i].getN_productos());
 			        }
 			        break;
 		  case 3:
@@ -71,7 +71,7 @@ public class main {
 	    }while(op2!=4);
 	    
 	    System.out.println("\n***** Fin del programa *****\n");
-	    fac[cont].finalize();
+	    System.gc();
 	}
 
 }
